@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="mainpage">
+      <div class="navbar">
+        <div class="navicons">
+          <svg
+            aria-hidden="true"
+            aria-label=""
+            class="logo"
+            height="20"
+            role="img"
+            viewBox="0 0 24 24"
+            width="20"
+          >
+            <path
+              d="M7.54 23.15q-.2-2.05.26-3.93L9 14.04a7 7 0 0 1-.35-2.07c0-1.68.81-2.88 2.09-2.88.88 0 1.53.62 1.53 1.8q0 .57-.23 1.28l-.52 1.72q-.15.5-.15.92c0 1.2.91 1.87 2.08 1.87 2.09 0 3.57-2.16 3.57-4.96 0-3.12-2.04-5.12-5.05-5.12-3.36 0-5.49 2.19-5.49 5.24 0 1.22.38 2.36 1.11 3.14-.24.41-.5.48-.88.48-1.2 0-2.34-1.69-2.34-4 0-4 3.2-7.17 7.68-7.17 4.7 0 7.66 3.29 7.66 7.33s-2.88 7.15-5.98 7.15a3.8 3.8 0 0 1-3.06-1.48l-.62 2.5a11 11 0 0 1-1.62 3.67A11.98 11.98 0 0 0 24 12a11.99 11.99 0 1 0-24 0 12 12 0 0 0 7.54 11.15"
+            ></path>
+          </svg>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            fill="currentColor"
+            class="size-6"
+          >
+            <path
+              d="M11.47 3.841a.75.75 0 0 1 1.06 0l8.69 8.69a.75.75 0 1 0 1.06-1.061l-8.689-8.69a2.25 2.25 0 0 0-3.182 0l-8.69 8.69a.75.75 0 1 0 1.061 1.06l8.69-8.689Z"
+            />
+            <path
+              d="m12 5.432 8.159 8.159c.03.03.06.058.091.086v6.198c0 1.035-.84 1.875-1.875 1.875H15a.75.75 0 0 1-.75-.75v-4.5a.75.75 0 0 0-.75-.75h-3a.75.75 0 0 0-.75.75V21a.75.75 0 0 1-.75.75H5.625a1.875 1.875 0 0 1-1.875-1.875v-6.198a2.29 2.29 0 0 0 .091-.086L12 5.432Z"
+            />
+          </svg>
+          <svg
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+            <path
+              d="M14.7221 8.26596C15.2107 8.10312 15.4549 8.02169 15.6174 8.07962C15.7587 8.13003 15.87 8.24127 15.9204 8.38263C15.9783 8.54507 15.8969 8.78935 15.734 9.27789L14.2465 13.7405C14.2001 13.8797 14.1769 13.9492 14.1374 14.007C14.1024 14.0582 14.0582 14.1024 14.007 14.1374C13.9492 14.1769 13.8797 14.2001 13.7405 14.2465L9.27789 15.734C8.78935 15.8969 8.54507 15.9783 8.38263 15.9204C8.24127 15.87 8.13003 15.7587 8.07962 15.6174C8.02169 15.4549 8.10312 15.2107 8.26596 14.7221L9.75351 10.2595C9.79989 10.1203 9.82308 10.0508 9.8626 9.99299C9.8976 9.94182 9.94182 9.8976 9.99299 9.8626C10.0508 9.82308 10.1203 9.79989 10.2595 9.75351L14.7221 8.26596Z"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="size-6"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M12 4.5v15m7.5-7.5h-15"
+            />
+          </svg>
+
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="size-6"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M14.857 17.082a23.848 23.848 0 0 0 5.454-1.31A8.967 8.967 0 0 1 18 9.75V9A6 6 0 0 0 6 9v.75a8.967 8.967 0 0 1-2.312 6.022c1.733.64 3.56 1.085 5.455 1.31m5.714 0a24.255 24.255 0 0 1-5.714 0m5.714 0a3 3 0 1 1-5.714 0"
+            />
+          </svg>
+
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="size-6"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M8.625 12a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm0 0H8.25m4.125 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm0 0H12m4.125 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm0 0h-.375M21 12c0 4.556-4.03 8.25-9 8.25a9.764 9.764 0 0 1-2.555-.337A5.972 5.972 0 0 1 5.41 20.97a5.969 5.969 0 0 1-.474-.065 4.48 4.48 0 0 0 .978-2.025c.09-.457-.133-.901-.467-1.226C3.93 16.178 3 14.189 3 12c0-4.556 4.03-8.25 9-8.25s9 3.694 9 8.25Z"
+            />
+          </svg>
+        </div>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke-width="1.5"
+          stroke="currentColor"
+          class="size-6"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M9.594 3.94c.09-.542.56-.94 1.11-.94h2.593c.55 0 1.02.398 1.11.94l.213 1.281c.063.374.313.686.645.87.074.04.147.083.22.127.325.196.72.257 1.075.124l1.217-.456a1.125 1.125 0 0 1 1.37.49l1.296 2.247a1.125 1.125 0 0 1-.26 1.431l-1.003.827c-.293.241-.438.613-.43.992a7.723 7.723 0 0 1 0 .255c-.008.378.137.75.43.991l1.004.827c.424.35.534.955.26 1.43l-1.298 2.247a1.125 1.125 0 0 1-1.369.491l-1.217-.456c-.355-.133-.75-.072-1.076.124a6.47 6.47 0 0 1-.22.128c-.331.183-.581.495-.644.869l-.213 1.281c-.09.543-.56.94-1.11.94h-2.594c-.55 0-1.019-.398-1.11-.94l-.213-1.281c-.062-.374-.312-.686-.644-.87a6.52 6.52 0 0 1-.22-.127c-.325-.196-.72-.257-1.076-.124l-1.217.456a1.125 1.125 0 0 1-1.369-.49l-1.297-2.247a1.125 1.125 0 0 1 .26-1.431l1.004-.827c.292-.24.437-.613.43-.991a6.932 6.932 0 0 1 0-.255c.007-.38-.138-.751-.43-.992l-1.004-.827a1.125 1.125 0 0 1-.26-1.43l1.297-2.247a1.125 1.125 0 0 1 1.37-.491l1.216.456c.356.133.751.072 1.076-.124.072-.044.146-.086.22-.128.332-.183.582-.495.644-.869l.214-1.28Z"
+          />
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"
+          />
+        </svg>
+      </div>
+      <div class="mainsection">
+        <div class="searchbar">
+          <div class="searchsection">
+            <svg
+              class="searchlogo"
+              aria-label="Search icon"
+              height="16"
+              role="img"
+              viewBox="0 0 24 24"
+              width="16"
+            >
+              <path
+                d="M10 16a6 6 0 1 1 .01-12.01A6 6 0 0 1 10 16m13.12 2.88-4.26-4.26a10 10 0 1 0-4.24 4.24l4.26 4.26a3 3 0 1 0 4.24-4.24"
+              ></path>
+            </svg>
+            <input class="searchinput" type="text" placeholder="Search" />
+          </div>
+          <div class="accountsec">
+            <img class="profilepic" src="assets/profile.png" alt="" />
+            <svg
+              aria-hidden="true"
+              aria-label=""
+              class="downarrow"
+              height="12"
+              role="img"
+              viewBox="0 0 24 24"
+              width="12"
+            >
+              <path
+                d="M20.16 6.65 12 14.71 3.84 6.65a2.27 2.27 0 0 0-3.18 0 2.2 2.2 0 0 0 0 3.15L12 21 23.34 9.8a2.2 2.2 0 0 0 0-3.15 2.26 2.26 0 0 0-3.18 0"
+              ></path>
+            </svg>
+          </div>
+        </div>
+        <div class="contentsection">
+          <img
+            src="https://i.pinimg.com/236x/e2/c3/89/e2c389cf76d0377bd5f04357aa2b989a.jpg"
+            alt=""
+          />
+          <img
+            src="https://i.pinimg.com/236x/65/9f/3a/659f3a90db7d5fe65cee00ac8f012c91.jpg"
+            alt=""
+          />
+          <img
+            src="https://i.pinimg.com/474x/7e/b0/b8/7eb0b8c61243ef6c6fdc38bd3ffbeb51.jpg"
+            alt=""
+          />
+          <img
+            src="https://i.pinimg.com/474x/e6/16/ea/e616ea67cc4e3b327e4bd322ff86a459.jpg"
+            alt=""
+          />
+          <img
+            src="https://i.pinimg.com/236x/39/04/38/3904385a8c8229bfc3133a8efb205c02.jpg"
+            alt=""
+          />
+          <img
+            src="https://i.pinimg.com/236x/2c/aa/bb/2caabb559c7a2ba6af003fa10264ba31.jpg"
+            alt=""
+          />
+          <img
+            src="https://i.pinimg.com/236x/5c/c8/ee/5cc8eed4efda084562aa76123e4079e4.jpg"
+            alt=""
+          />
+          <img
+            src="https://i.pinimg.com/236x/f9/6b/73/f96b735c8e0e1c8dfd0729120fc9bca9.jpg"
+            alt=""
+          />
+          <img
+            src="https://i.pinimg.com/474x/5e/ed/f8/5eedf86b34f4e4e7e9efc018606a5914.jpg"
+            alt=""
+          />
+          <img
+            src="https://i.pinimg.com/236x/b9/b5/89/b9b589668884239bb4c41a217c43dd82.jpg"
+            alt=""
+          />
+          <img
+            src="https://i.pinimg.com/474x/84/15/d2/8415d2b3d9a24ced3942767d95ab66ee.jpg"
+            alt=""
+          />
+          <img
+            src="https://i.pinimg.com/474x/d1/43/b0/d143b0b2fab9b1055857032dab5d3414.jpg"
+            alt=""
+          />
+          <img
+            src="https://i.pinimg.com/236x/5e/60/fe/5e60fe2657c3d53b46f2f5f684d33343.jpg"
+            alt=""
+          />
+          <img
+            src="https://i.pinimg.com/474x/41/55/ae/4155ae59042fad5a7ee510a263b774f9.jpg"
+            alt=""
+          />
+          <img
+            src="https://i.pinimg.com/474x/4b/cc/80/4bcc809ff58eb470258d4544667611cf.jpg"
+            alt=""
+          />
+          <img
+            src="https://i.pinimg.com/236x/5e/60/fe/5e60fe2657c3d53b46f2f5f684d33343.jpg"
+            alt=""
+          />
+          <img
+            src="https://i.pinimg.com/236x/07/21/22/072122b76fa91b6ef662f6aed58144ec.jpg"
+            alt=""
+          />
+          <img
+            src="https://i.pinimg.com/474x/ca/9e/b9/ca9eb98bc2da8ca0e71731c858cf16de.jpg"
+            alt=""
+          />
+          <img
+            src="https://i.pinimg.com/474x/dc/f9/8b/dcf98bc20200a5fcf172f3ca304d1c95.jpg"
+            alt=""
+          />
+          <img
+            src="https://i.pinimg.com/236x/e8/c6/78/e8c6781d0a03959f0125474200649529.jpg"
+            alt=""
+          />
+          <img
+            src="https://i.pinimg.com/236x/cc/52/dc/cc52dc3eedebb91dca84ae6f97147594.jpg"
+            alt=""
+          />
+          <img
+            src="https://i.pinimg.com/236x/89/e0/80/89e08005566f65e31643b463ffb79163.jpg"
+            alt=""
+          />
+          <img
+            src="https://i.pinimg.com/236x/51/2c/51/512c51c42f1922f6a846d286667c9efd.jpg"
+            alt=""
+          />
+          <img
+            src="https://i.pinimg.com/236x/a8/2d/73/a82d73d5c483e0d51e097e7ce23a1a00.jpg"
+            alt=""
+          />
+          <img
+            src="https://i.pinimg.com/236x/d1/2e/42/d12e420076120b91e760cc4db744b0a8.jpg"
+            alt=""
+          />
+          <img
+            src="https://i.pinimg.com/474x/d3/84/92/d3849247572964a7b42a31d3ffc9ee9d.jpg"
+            alt=""
+          />
+          <img
+            src="https://i.pinimg.com/236x/40/c3/1b/40c31b1817456aa5141ea53732159de1.jpg"
+            alt=""
+          />
+          <img
+            src="https://i.pinimg.com/236x/89/61/b9/8961b9811cc37c7f260dc9b11150d8f2.jpg"
+            alt=""
+          />
+          <img
+            src="https://i.pinimg.com/236x/28/0c/1c/280c1c5b24d768c42e069a930d9496d6.jpg"
+            alt=""
+          />
+          <img
+            src="https://i.pinimg.com/474x/53/ef/1f/53ef1f6634e8d12376d540139fd02580.jpg"
+            alt=""
+          />
+          <img
+            src="https://i.pinimg.com/474x/a8/14/69/a814694a88d9915391a8572bcae70e0b.jpg"
+            alt=""
+          />
+          <img
+            src="https://i.pinimg.com/474x/ee/f6/8a/eef68a5d9aceb3f3f467ce98e18d6f32.jpg"
+            alt=""
+          />
+          <img
+            src="https://i.pinimg.com/474x/d9/9c/5f/d99c5f2da937c9ca22fe7b84fe658282.jpg"
+            alt=""
+          />
+          <img
+            src="https://i.pinimg.com/474x/27/c3/32/27c3327b1fa23c517e091ec8cc7aab09.jpg"
+            alt=""
+          />
+          <img
+            src="https://i.pinimg.com/236x/a6/19/87/a619872856d2a98079739f5410caf40e.jpg"
+            alt=""
+          />
+          <img
+            src="https://i.pinimg.com/236x/dd/fb/6d/ddfb6d492e250b73add11a1b8123a267.jpg"
+            alt=""
+          />
+          <img
+            src="https://i.pinimg.com/236x/9e/2e/8c/9e2e8cdf84c51d659aaba21af66b43bb.jpg"
+            alt=""
+          />
+          <img
+            src="https://i.pinimg.com/236x/d5/43/cc/d543ccfb07ba0e28a0acf7dd557ac2eb.jpg"
+            alt=""
+          />
+          <img
+            src="https://i.pinimg.com/236x/5c/56/7f/5c567f308bb36977bf9ad1ac349c103b.jpg"
+            alt=""
+          />
+          <img
+            src="https://i.pinimg.com/474x/07/42/b7/0742b74fe3379db426a3acbf91758da4.jpg"
+            alt=""
+          />
+          <img
+            src="https://i.pinimg.com/236x/a7/c4/d1/a7c4d14791c3c1599cc6d0b889a460f7.jpg"
+            alt=""
+          />
+          <img
+            src="https://i.pinimg.com/474x/83/7f/24/837f24db011a9e7d54ced237f596d096.jpg"
+            alt=""
+          />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
