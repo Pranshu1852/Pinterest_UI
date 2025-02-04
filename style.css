@@ -1,3 +1,10 @@
+:root {
+  --icon-hover-color: #f1f1f1;
+  --searchbar-hover-color: #e1e1e1;
+  --searchbar-border-color: #7fc1ff;
+  --icon-gray-color: gray;
+}
+
 .body {
   margin: 0;
   padding: 0;
@@ -19,7 +26,7 @@
   height: 100vh;
   max-height: 94vh;
   width: 75px;
-  border-right: 1px solid rgb(209, 209, 209);
+  border-right: 1px solid #d1d1d1;
   padding: 3vh 0vw;
 }
 
@@ -39,7 +46,7 @@
 }
 
 .icon:hover {
-  background-color: #f1f1f1;
+  background-color: var(--icon-hover-color);
 }
 
 .icon--logo {
@@ -71,7 +78,7 @@
 
 .mainsection__content {
   margin-top: 8vh;
-  width: 98.4%;
+  width: 98.3%;
   columns: 7;
   padding: 0vh 1vw;
   /* display: grid;
@@ -95,7 +102,7 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  background-color: #f1f1f1;
+  background-color: var(--icon-hover-color);
   width: 100%;
   height: 5vh;
   border-radius: 10px;
@@ -104,12 +111,12 @@
 }
 
 .searchbar__searchsection:hover {
-  background-color: #e1e1e1;
+  background-color: var(--searchbar-hover-color);
 }
 
 .icon--search {
   width: 20px;
-  fill: gray;
+  fill: var(--icon-gray-color);
 }
 
 .searchbar__input {
@@ -117,16 +124,16 @@
   width: 100%;
   height: 4.8vh;
   border: none;
-  background-color: #f1f1f1;
+  background-color: var(--icon-hover-color);
   font-size: 18px;
 }
 
 .searchbar__input:hover {
-  background-color: #e1e1e1;
+  background-color: var(--searchbar-hover-color);
 }
 
 .searchbar__searchsection:has(.searchbar__input:focus) {
-  border: 3px solid #7fc1ff;
+  border: 3px solid var(--searchbar-border-color);
 }
 
 .searchbar__searchsection:has(.searchbar__input:focus) .icon--search {
@@ -148,7 +155,7 @@
 
 .accountsection__image:hover {
   border-radius: 5px;
-  background-color: #f1f1f1;
+  background-color: var(--icon-hover-color);
 }
 
 .icon--downarrow {
@@ -156,12 +163,30 @@
   padding: 9px 5px;
   border-radius: 50%;
   min-width: 20px;
-  fill: gray;
+  fill: var(--icon-gray-color);
   cursor: pointer;
 }
 
 .icon--downarrow:hover {
-  background-color: #f1f1f1;
+  background-color: var(--icon-hover-color);
+}
+
+.mainpage__question {
+  position: fixed;
+  right: 1.4%;
+  bottom: 2%;
+  z-index: 1;
+}
+
+.icon--question {
+  color: black;
+  align-self: center;
+  background-color: white;
+  padding: 20px 20px;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  box-shadow: 0px 0px 7px 0px gray;
 }
 
 @media (max-width: 1750px) {
