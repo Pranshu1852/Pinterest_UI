@@ -92,6 +92,16 @@
   border-radius: 20px;
   margin-bottom: 1vh;
   cursor: pointer;
+  animation: color 1s ease-in-out infinite alternate;
+}
+
+@keyframes color {
+  0%{
+    background-color: rgb(219, 219, 219);
+  }
+  100%{
+    background-color: rgb(167, 167, 167);
+  }
 }
 
 .mainsection__content__image:hover {
